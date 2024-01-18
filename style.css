@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(15, 92, 102);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.container{
+    background-color: red;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 40px;
+     */
+     height: 100px;
+     background-color: rgb(7, 64, 73);
+     position: fixed;
+     top: 0;
+   width: 100%;
+}
+.mleft img {
+    height: 70px;
+    width: 70px;
+    margin: -23px;
+    padding: 25px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: grey;
+    font-size: 17px;
+}
+.left{
+    margin: -4px 1px 1px -80px;
+    padding: 25px;
+    font-size: 30px;
+    
+}
+.right{
+    /* margin: 0 0 0 900px;
+     */
+     padding: 0 0 0 50px;
+   
+    font-size: 18px;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 160px;
+}
+.firstsection >div{
+    width: 30%;
+}
+.leftsection{
+    
+    width: 35%;
+    /* background-color: red; */
+    font-size: 50px;
+
+}
+.rightsection{
+    width: 40%;
+    /* background-color: red; */
+
+}
+.rightsection img{
+ margin-top: -43px;
+
+    width: 100%;
+}
+.red{
+    color: rgb(228, 213, 10);
+}
+#element{
+    color: rgb(226, 222, 7);
+}
+hr{
+    border: 0;
+    background: rgb(47, 196, 188);
+    height: 1px;
+    margin: 20px;
+}
+.secondsection #guff {
+    width:30vw;
+    margin: 30px;
+    height: 50vh;
+    display: flex;
+    justify-content:space-evenly;
+}
+.secondsection #ganu{
+    width:30vw;
+    margin: 30px;
+    height: 50vh;
+    display: flex;
+    justify-content:space-evenly;
+}
+.secondsection{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+    padding: 70px;
+}
+.secondsection #guff  h1{
+    margin: -42px -112px 0px -27px;
+
+}
+.secondsection #ganu h1{
+    margin: -39px -60px 0px -58px;
+
+}
+
+
+#contact {
+    background-color: rgb(15, 92, 102);
+    padding: 20px;
+    margin: 20px 20px 20px -45px ;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 50px;
+    margin-left: -350px;
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+#sm h1{
+    height: 100px;
+    width: 230px;
+    margin: 7px 210px -79px 106px;
+}
+/* #imgg img{
+    height: 100px;
+    width: 230px;
+    
+} *//* styles.css */
+
+#imgg img {
+    margin: 12px 0px 0px 35px;
+    padding: 20px;
+}

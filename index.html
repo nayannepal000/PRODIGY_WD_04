@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nayan's portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital@1&family=Poppins:ital@1&family=Rubik+Doodle+Shadow&family=Sevillana&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+<body >  
+   <header>
+    <nav>
+        <div class="mleft"><img src="logo.png" alt="there was a logo"></div>
+        <div class="left">NexGen Dynamics</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="#about">ABOUTME </a></li>
+                <li><a href="#contact">CONTACT </a></li>
+                <li><a href="/">Resume/cv</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="/">Help</a></li>
+            </ul>
+            
+        </div>
+
+    </nav>
+   </header>
+   <main>
+    <section class="firstsection">
+        <div class="leftsection"> HELLO WORLD !
+            <div> my name is NAYAN & I am a <span class="red"></span></div>
+            <span id="element"></span>
+        </div>
+            
+        <div class="rightsection">
+            <img src="portimg.png" alt="there was a img ">
+        </div>
+    </section>
+    <div id="skills"></div>
+    <hr id="about">
+    <section  class="secondsection">     
+     <div id="guff">
+        <h1>ABOUTME</h1>
+Hello! I'm NAYAN NEPAL, a dynamic and versatile web developer, proficient in both frontend and backend technologies. Currently immersed in the enriching world of Information Technology, I'm on a journey of continuous learning and innovation. As a dedicated programmer, I bring a blend of creativity and technical expertise to every project.
+
+My internship at Prodigy Info Tech has been instrumental in shaping my skills, providing hands-on experience, and deepening my understanding of industry practices. During this internship, I had the opportunity to work on real-world projects, honing my abilities in frontend development with HTML5, CSS3, and JavaScript, as well as backend technologies like Node.js and Express.js. This experience has fueled my passion for creating effective and user-friendly applications.
+
+
+     </div >
+     <div id="ganu">
+     <h1 id="skills"> Skills</h1>
+     I'm a versatile web developer with expertise in both frontend and backend technologies. On the frontend, I excel in HTML5, CSS3, and JavaScript, including libraries like React.js and Vue.js. I create engaging user interfaces that are both dynamic and responsive.
+
+In backend development, I specialize in Node.js and Express.js, along with Python and frameworks like Django and Flask. My skills extend to Java, particularly with Spring Boot for robust server-side applications.
+
+Proficient in JavaScript, Python, and C/C++, I bring a comprehensive understanding to projects, seamlessly bridging the gap between frontend and backend development. I'm committed to staying updated on the latest technologies to deliver effective and innovative solutions.
+    </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+    
+          <button type="submit">Send Message</button>
+        </form>
+            <div id="sm">
+                <h1>My Social Media</h1>
+                <div id="imgg">
+                    <a href="https://www.facebook.com/" target="_main">
+                        <img src="fBLOGO.png" alt="facebooklogo" style="width: 50px; height: 50px;">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_main">
+                        <img src="instalogo.avif" alt="insta logo" style="width: 50px; height: 50px;">
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_main">
+                        <img src="linkedinlogo.png" alt="linkedin logo" style="width: 50px; height: 50px;">
+                    </a>
+                    <a href="https://www.twitter.com/" target="_main">
+                        <img src="twitterlogo.png " alt="twitter logo " style="width: 50px; height: 50px;">
+                    </a>
+                </div>
+            </div>        
+    </div>
+      </section>    
+   </main>
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   <script>
+    var typed = new Typed('#element', {
+      strings: ['webdeveloper', 'programmer', 'webdesigner', 'coder'],
+      typeSpeed: 50,
+      loop: true, 
+    });
+  </script>
+</body>
+</html>
